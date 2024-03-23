@@ -1,0 +1,32 @@
+﻿using System.Runtime.Intrinsics.X86;
+
+namespace _2ndAssignment
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+          
+
+            for (int Num = 0; Num <= 100; Num++)
+            {
+                if (Num % 15 == 0 ) 
+                {
+                    Console.WriteLine("Hello GoodBye");
+                }  
+                else if (Num % 5 == 0) 
+                {
+                    Console.WriteLine("GoodBye");                
+                }
+                else if (Num % 3 == 0)
+                {
+                    Console.WriteLine("Hello");
+                }
+                else
+                {
+                    Console.WriteLine(Num);
+                }
+            }
+        }
+    }
+}
