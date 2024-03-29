@@ -8,7 +8,7 @@ namespace _2ndAssignment
         {
           
 
-            for (int Num = 0; Num <= 100; Num++)
+            for (int Num = 1; Num <= 100; Num++)
             {
                 if (Num % 15 == 0 ) 
                 {
